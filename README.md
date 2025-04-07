@@ -4,19 +4,19 @@ Guitar overdrive pedals often emphasise a set of frequencies alongside their cli
 
 ## Introduction
 **Voice and Hump Controls**
-Control the centre frequency and amount of boost for the overdrive.  The **Voice** knob controls where on the frequency spectrum the boost will sit and the **Hump** knob 
+- Control the centre frequency and amount of boost for the overdrive.  The **Voice** knob controls where on the frequency spectrum the boost will sit and the **Hump** knob 
 controls how much that frequency is boosted, from "flat" to 8x gain.  The **Voice** knob slides from 600hz to 2000hz to cover the range from Tubescreamer, through Rat to 
 treble boost.  This section is pre-clipping so will inherently affect the amount of distortion available
 
 **Clipping**
-Choose your style of diode-like clipping with the **Clip** button: Soft or Hard clipping.  In Hard-Clipping mode the **Diode** buttons allow you to choose your 
+- Choose your style of diode-like clipping with the **Clip** button: Soft or Hard clipping.  In Hard-Clipping mode the **Diode** buttons allow you to choose your 
 arrangement: Number of diodes (1 - 4) and their symmetrical arrangement.
 
 **Tone**
-Does what it says on the tin.  Bass control is a pre-drive cut and the treble is a post-drive shelf for cut and boost.
+- Does what it says on the tin.  Bass control is a pre-drive cut and the treble is a post-drive shelf for cut and boost.
 
 **Gain and Level**
-Pretty obvious really
+- Pretty obvious really
 
 ## For the Nerds
 The hard clipping is a simple clip~ object in PureData - it limits the signal between a minimum and maximum value.  A "no diode" option (possible but why?) clips the signal 
